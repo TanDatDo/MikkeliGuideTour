@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the places category -->
+    <color name="category_places">#FD8E09</color>
+
+    <!-- Background color for the restaurant category -->
+    <color name="category_restaurants">#379237</color>
+
+
+    <!-- Background color for the finnish category -->
+    <color name="category_finnish">#16AFCA</color>
+
+    <!-- Background color for the markets category -->
+    <color name="category_markets">#8800A0</color>
+</resources>

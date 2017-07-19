@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Welcome to Mikkeli</string>
+
+    <string name="title_activity_destination">Destination</string>
+
+    <!-- Category name for places -->
+    <string name="category_places">Places</string>
+
+    <!-- Category name for restaurant -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for Finnish phrases -->
+    <string name="category_finnish">Learn a bit Finnish</string>
+
+    <!-- Category name for market phrases -->
+    <string name="category_market">Markets</string>
+
+    <!--Text from the more information button-->
+    <string name="more_information"> More Info</string>
+
+</resources>

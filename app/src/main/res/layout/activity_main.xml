@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dan.mikkeliguidetour.MainActivity"
+    android:orientation="vertical">
+
+    <!-- Places category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_places">
+
+        <TextView
+            android:id="@+id/places"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_places" />
+    </FrameLayout>
+
+    <!-- Restaurant category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants">
+
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_restaurants" />
+    </FrameLayout>
+
+    <!-- Finnish category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_finnish">
+
+        <TextView
+            android:id="@+id/phrase"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_finnish" />
+    </FrameLayout>
+
+    <!-- Finnish category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_markets">
+
+        <TextView
+            android:id="@+id/market"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_market" />
+    </FrameLayout>
+
+</LinearLayout>
