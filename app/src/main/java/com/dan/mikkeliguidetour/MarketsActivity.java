@@ -1,7 +1,7 @@
 package com.dan.mikkeliguidetour;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import com.dan.mikkeliguidetour.SupportingClass.Feature;
@@ -17,7 +17,7 @@ public class MarketsActivity extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         //create the new markets array list and add market item into it
-        ArrayList<Feature> markets= new ArrayList<Feature>();
+        ArrayList<Feature> markets = new ArrayList<Feature>();
         markets.add(new Feature("Stella",
                 "Hallituskatu 3-5, 50100 Mikkeli",
                 "https://www.kauppakeskusstella.fi/liikkeet",
@@ -36,9 +36,9 @@ public class MarketsActivity extends AppCompatActivity {
                 R.drawable.lidl));
 
         //create new adapter object
-        FeatureAdapter marketAdapter= new FeatureAdapter(this, markets);
+        FeatureAdapter marketAdapter = new FeatureAdapter(this, markets);
         //find the listview by id
-        ListView marketListView=(ListView) findViewById(R.id.list);
+        ListView marketListView = (ListView) findViewById(R.id.list);
         //set the markets list into the list view
         marketListView.setAdapter(marketAdapter);
     }
