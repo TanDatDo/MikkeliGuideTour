@@ -18,21 +18,22 @@ public class MarketsActivity extends AppCompatActivity {
 
         //create the new markets array list and add market item into it
         ArrayList<Feature> markets = new ArrayList<Feature>();
-        markets.add(new Feature("Stella",
-                "Hallituskatu 3-5, 50100 Mikkeli",
-                "https://www.kauppakeskusstella.fi/liikkeet",
+        markets.add(new Feature(getString(R.string.stella_name),
+                getString(R.string.stella_adress),
+                getString(R.string.stella_url),
                 R.drawable.stella));
-        markets.add(new Feature("K-Citymarket",
-                "Graanintie 1, 50190 Mikkeli",
-                "http://www.k-citymarket.fi/",
+        markets.add(new Feature(
+                getString(R.string.kcity_name),
+                getString(R.string.kcity_adress),
+                getString(R.string.kcity_url),
                 R.drawable.k_citimarket));
-        markets.add(new Feature("Carlson",
-                "Laiturikatu 4, 50100 Mikkeli",
-                "http://www.carlson.fi/fi/rautakaupat/mikkeli/",
+        markets.add(new Feature(getString(R.string.carson_name),
+                getString(R.string.carson_adress),
+                getString(R.string.carlson_url),
                 R.drawable.carlson));
-        markets.add(new Feature("Lidl",
-                "Setrikatu 3, 50100 Mikkeli",
-                "https://www.lidl.fi/fi/myymalahaku.htm",
+        markets.add(new Feature(getString(R.string.lidl_name),
+                getString(R.string.lidl_adress),
+                getString(R.string.lidl_url),
                 R.drawable.lidl));
 
         //create new adapter object

@@ -3,8 +3,8 @@ package com.dan.mikkeliguidetour;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -23,19 +23,6 @@ public class PhrasesActivity extends AppCompatActivity {
 
     /** Handles audio focus when playing a sound file */
     private AudioManager mAudioManager;
-
-    /**
-     * This listener gets triggered when the {@link MediaPlayer} has completed
-     * playing the audio file.
-     */
-    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
-        @Override
-        public void onCompletion(MediaPlayer mediaPlayer) {
-            // Now that the sound file has finished playing, release the media player resources.
-            releaseMediaPlayer();
-        }
-    };
-
     /**
      * This listener gets triggered whenever the audio focus changes
      * (i.e., we gain or lose audio focus because of another app or device).
@@ -64,6 +51,17 @@ public class PhrasesActivity extends AppCompatActivity {
             }
         }
     };
+    /**
+     * This listener gets triggered when the {@link MediaPlayer} has completed
+     * playing the audio file.
+     */
+    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mediaPlayer) {
+            // Now that the sound file has finished playing, release the media player resources.
+            releaseMediaPlayer();
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,11 +70,11 @@ public class PhrasesActivity extends AppCompatActivity {
 
         // create and add phrase into new ArrayList<Phrase> object names phrases
         final ArrayList<Phrase> phrases = new ArrayList<Phrase>();
-        phrases.add(new Phrase("Terve", "Hello", R.raw.terve));
-        phrases.add(new Phrase("Tervetuloa", "Welcome", R.raw.tervetuloa));
-        phrases.add(new Phrase("Anteeksi", "Sorry", R.raw.anteeksi));
-        phrases.add(new Phrase("Kiitos", "Thank you", R.raw.kiitos));
-        phrases.add(new Phrase("Minun nimin on", "My name is", R.raw.minun_nimi_on));
+        phrases.add(new Phrase(getString(R.string.hello_finnish), getString(R.string.hello_english), R.raw.terve));
+        phrases.add(new Phrase(getString(R.string.welcome_finnish), getString(R.string.welcome_english), R.raw.tervetuloa));
+        phrases.add(new Phrase(getString(R.string.sorry_finnish), getString(R.string.sorry_english), R.raw.anteeksi));
+        phrases.add(new Phrase(getString(R.string.thank_you_finnish), getString(R.string.thank_you_english), R.raw.kiitos));
+        phrases.add(new Phrase(getString(R.string.introduce_name_finnish), getString(R.string.introduce_name_english), R.raw.minun_nimi_on));
 
         //create new phrase adapter object
         PhraseAdapter phraseAdapter = new PhraseAdapter(this, phrases);

@@ -1,7 +1,7 @@
 package com.dan.mikkeliguidetour;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import com.dan.mikkeliguidetour.SupportingClass.Feature;
@@ -16,21 +16,21 @@ public class PlacesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
         ArrayList<Feature> places = new ArrayList<Feature>();
-        places.add(new Feature("Mikkeli Cathedral",
-                "Ristimaenkatu 2 50100 Mikkeli",
-                "https://www.tripadvisor.com/Attraction_Review-g189909-d4701252-Reviews-Mikkeli_Cathedral-Mikkeli_Southern_Savonia.html",
+        places.add(new Feature(getString(R.string.cathedral_name),
+                getString(R.string.cathedral_address),
+                getString(R.string.cathedral_url),
                 R.drawable.mikkeli_church));
-        places.add(new Feature("Naivouri",
-                "50100 Mikkeli center",
-                "https://www.tripadvisor.com/Attraction_Review-g189909-d8587629-Reviews-Naisvuori_Observation_Tower-Mikkeli_Southern_Savonia.html",
+        places.add(new Feature(getString(R.string.naivouri_name),
+                getString(R.string.naivuori_address),
+                getString(R.string.naivouri_url),
                 R.drawable.naisvuori));
-        places.add(new Feature("Kenkavero",
-                "Pursialankatu 6, 50100",
-                "https://www.tripadvisor.com/Attraction_Review-g189909-d6953599-Reviews-Kenkavero-Mikkeli_Southern_Savonia.html",
+        places.add(new Feature(getString(R.string.kenkavero_name),
+                getString(R.string.kenkavero_address),
+                getString(R.string.kenkavero_url),
                 R.drawable.kenkavero));
-        places.add(new Feature("Head Quarter Museum",
-                "Paeaemajankuja 1, Mikkeli 50100",
-                "https://www.tripadvisor.com/Attraction_Review-g189909-d6483979-Reviews-Headquarters_Museum-Mikkeli_Southern_Savonia.html",
+        places.add(new Feature(getString(R.string.museum_name),
+                getString(R.string.museum_address),
+                getString(R.string.museum_url),
                 R.drawable.head_quarter_museum));
 
         FeatureAdapter placesAdapter = new FeatureAdapter(this, places);

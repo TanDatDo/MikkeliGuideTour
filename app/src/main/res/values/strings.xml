@@ -17,5 +17,54 @@
 
     <!--Text from the more information button-->
     <string name="more_information"> More Info</string>
+    <string name="stella_name">Stella</string>
+    <string name="stella_adress">Hallituskatu 3-5, 50100 Mikkeli</string>
+    <string name="stella_url">https://www.kauppakeskusstella.fi/liikkeet</string>
+    <string name="kcity_name">K-Citymarket</string>
+    <string name="kcity_adress">Graanintie 1, 50190 Mikkeli</string>
+    <string name="kcity_url">http://www.k-citymarket.fi/</string>
+    <string name="carson_name">Carlson</string>
+    <string name="carson_adress">Laiturikatu 4, 50100 Mikkeli</string>
+    <string name="carlson_url">http://www.carlson.fi/fi/rautakaupat/mikkeli/</string>
+    <string name="lidl_name">Lidl</string>
+    <string name="lidl_adress">Setrikatu 3, 50100 Mikkeli</string>
+    <string name="lidl_url">https://www.lidl.fi/fi/myymalahaku.htm</string>
+    <string name="hello_finnish">Terve</string>
+    <string name="hello_english">Hello</string>
+    <string name="welcome_finnish">Tervetuloa</string>
+    <string name="welcome_english">Welcome</string>
+    <string name="sorry_finnish">Anteeksi</string>
+    <string name="sorry_english">Sorry</string>
+    <string name="thank_you_finnish">Kiitos</string>
+    <string name="thank_you_english">Thank you</string>
+    <string name="introduce_name_finnish">Minun nimin on</string>
+    <string name="introduce_name_english">My name is</string>
+    <string name="kumari_name">Kumari</string>
+    <string name="kumari_adress">Mikonkatu 11 8L, Mikkeli 50100</string>
+    <string name="kumari_url">https://www.tripadvisor.com/Restaurant_Review-g189909-d6695225-Reviews-Kumari_Nepalese_Restaurant-Mikkeli_Southern_Savonia.html</string>
+    <string name="vilee_name"><![CDATA[Vilee Puoti & Bistro]]></string>
+    <string name="vilee_adress">Savilahdenkatu 11, Mikkeli 50100</string>
+    <string name="vilee_url">https://www.tripadvisor.com/Restaurant_Review-g189909-d4758093-Reviews-Vilee_Puoti_Bistro-Mikkeli_Southern_Savonia.html</string>
+    <string name="huviretki_name">Huviretki</string>
+    <string name="huvireti_address">Mikonkatu 9, Mikkeli 50100</string>
+    <string name="huviretki_url">https://www.tripadvisor.com/Restaurant_Review-g189909-d1079693-Reviews-Huviretki-Mikkeli_Southern_Savonia.html</string>
+    <string name="vino_name">Restaurant Vino</string>
+    <string name="vino_address">Mikonkatu 1, Mikkeli 50100</string>
+    <string name="vino_url">https://www.tripadvisor.com/Restaurant_Review-g189909-d10508101-Reviews-Restaurant_Vino-Mikkeli_Southern_Savonia.html</string>
+    <string name="tertin_name">Tertin Kartano</string>
+    <string name="tertin_address">Kuopiontie 68, Mikkeli 50350</string>
+    <string name="tertin_url">https://www.tripadvisor.co.nz/Restaurant_Review-g189909-d2251366-Reviews-Tertin_Kartano-Mikkeli_Southern_Savonia.html</string>
+    <string name="cathedral_name">Mikkeli Cathedral</string>
+    <string name="cathedral_address">Ristimaenkatu 2 50100 Mikkeli</string>
+    <string name="cathedral_url">https://www.tripadvisor.com/Attraction_Review-g189909-d4701252-Reviews-Mikkeli_Cathedral-Mikkeli_Southern_Savonia.html</string>
+    <string name="naivouri_name">Naivouri</string>
+    <string name="naivuori_address">50100 Mikkeli center</string>
+    <string name="naivouri_url">https://www.tripadvisor.com/Attraction_Review-g189909-d8587629-Reviews-Naisvuori_Observation_Tower-Mikkeli_Southern_Savonia.html</string>
+    <string name="kenkavero_name">Kenkavero</string>
+    <string name="kenkavero_address">Pursialankatu 6, 50100</string>
+    <string name="kenkavero_url">https://www.tripadvisor.com/Attraction_Review-g189909-d6953599-Reviews-Kenkavero-Mikkeli_Southern_Savonia.html</string>
+    <string name="museum_name">Head Quarter Museum</string>
+    <string name="museum_address">Paeaemajankuja 1, Mikkeli 50100</string>
+    <string name="museum_url">https://www.tripadvisor.com/Attraction_Review-g189909-d6483979-Reviews-Headquarters_Museum-Mikkeli_Southern_Savonia.html</string>
 
 </resources>
