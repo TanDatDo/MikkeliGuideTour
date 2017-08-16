@@ -10,10 +10,10 @@ Main Activity
 
 ![alt text](https://github.com/TanDatDo/NanoDegree-Project-MikkeliGuideTour/blob/596aa143f748ea8834ca957533cc923b259560f2/app/src/main/res/drawable/mikkeli_app_1.png)
 
-Finnish Activity
+Places Activity
 
 ![alt text](https://github.com/TanDatDo/NanoDegree-Project-MikkeliGuideTour/blob/596aa143f748ea8834ca957533cc923b259560f2/app/src/main/res/drawable/mikkeli_app_2.png)
 
-Places Activity
+Finnish Activity
 
 ![alt text](https://github.com/TanDatDo/NanoDegree-Project-MikkeliGuideTour/blob/596aa143f748ea8834ca957533cc923b259560f2/app/src/main/res/drawable/mikkeli_app_3.png)
