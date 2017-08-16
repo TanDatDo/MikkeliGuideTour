@@ -2,7 +2,7 @@
 Nano Degree App: Mikkeli Guide Tour 
 Function: Displaying the special attraction and interesting information about the city
 Skill associated:
- - Multiple screen app
+ - Fragment, Page Adapter, and External Library (ButterKnife)
  - Playing audio (using Aduio Focus to perform comfortable audio control for users)
  - Custom Class: array list, array adapter
 
